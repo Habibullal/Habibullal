@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>AARTIFY: </title>
+</head>
+<body>
+    <div class="container bg-black flex">
+        <div class="left m-1">
+            <div class="home m-1 bg-grey rounded p-1">
+                <div class="logo flex"><img src="logo.svg" alt=""><h1>AARTIFY</h1></div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library m-1 p-1 rounded bg-grey">
+                <div class="heading flex">
+                    <img class="invert" src="playlist.svg" alt="">
+                    <h2>Your Playlist</h2>
+                </div>
+                <div class="playlistContainer flex">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header flex p-1">
+                <div class="nav invert">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    
+                </div>
+                <div class="buttons">
+                    <button class="bg-grey">Sign up</button>
+                    <button>Log in</button>
+                    
+                </div>
+            </div>
+            <div class="songsList">
+                <ul>
+                    
+                </ul>
+            </div>
+            <div class="playbar">
+                <div class="flex aboveBar p-1 ">
+                    <div class="songInfo invert">
+                        
+                    </div>
+                    <div class="songButtons">
+                        <img id="previous" src="prevsong.svg" alt="previous">
+                        <img id="play" src="play.svg" alt="play">
+                        <img id="next" src="nextsong.svg" alt="next">
+                    </div>
+                    <div class="songTime invert">
+                        00:00/00:00
+                    </div>
+                    <div class="volumeContainer flex">
+                        <img src="volume.svg" alt="">
+                        <input class="volumeSlider" type="range" name="volume">
+                    </div>
+                </div>
+                <div>
+                    <div class="seekBar">
+                        <div class="circle">
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
